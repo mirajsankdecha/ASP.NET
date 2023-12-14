@@ -45,10 +45,6 @@ This repository serves as more than just a code archive; it is a dynamic daily l
 
 As a passionate developer, my aim extends beyond personal growth. This repository is designed to be a valuable resource for fellow students at Atmiya University pursuing ASP.NET, offering insights, inspiration, and practical examples. Through shared knowledge and collaborative learning, I aspire to foster a supportive community within the realm of ASP.NET development at our university
 
-## :arrow_right: Live App Demo
-
-**Check out my live portfolio here: [Click Here](https://portfolio-master-sable-seven.vercel.app/)**
-
 ## :page_facing_up: Resume
 
 Here is my latest resume: **[Click Here](https://drive.google.com/file/d/1HO9p2HsdqrXpN-08T3BGXHhwezY6YALH/view)**
