@@ -95,7 +95,7 @@ To set up and run the project, follow these steps:
    ```bash
    git clone https://github.com/mirajsankdecha/your-aspnet-repo.git
    
-2. **Open the Project in Visual Studio**
+2. **Open the Project in Visual Studio:**
 - Open Visual Studio on your local machine.
 - Click on "File" in the menu bar.
 - Select "Open" and then choose "Project/Solution."
@@ -104,18 +104,18 @@ To set up and run the project, follow these steps:
 - Select Solution
 - Click "Open" to load the project into Visual Studio.
 
-3. **Configure the Development Environment**
+3. **Configure the Development Environment:**
 Ensure that you have the necessary .NET runtime and SDK installed on your machine. You can download them from dotnet.microsoft.com.
 Check for any additional configuration or environment setup mentioned in the project's documentation or README file.
 
-4. **Run the Project**
+4. **Run the Project:**
 Once the project is open in Visual Studio, ensure that the correct startup project is selected. You can right-click on the desired project in the Solution Explorer and choose "Set as Startup Project."
 Set as Startup Project
 Press F5 or click on the "Start" button to build and run the project. Alternatively, you can use Ctrl + F5 to run without debugging.
 Run Project
 Visual Studio will build the project and launch the application. You should see the output in the console or debug window.
 
-5. **Access the Application**
+5. **Access the Application:**
 Once the project is successfully built and running, open your web browser.
 Navigate to the specified URL or port mentioned in the project's documentation or output window.
 
