@@ -93,7 +93,7 @@ To set up and run the project, follow these steps:
 1. **Clone the Repository:** Use the following command to clone the project repository to your local machine:
 
    ```bash
-   git clone https://github.com/mirajsankdecha/your-aspnet-repo.git
+   git clone https://github.com/mirajsankdecha/ASP.NET.git
    
 2. **Open the Project in Visual Studio:**
 - Open Visual Studio on your local machine.
