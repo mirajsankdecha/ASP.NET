@@ -45,18 +45,6 @@ This repository serves as more than just a code archive; it is a dynamic daily l
 
 As a passionate developer, my aim extends beyond personal growth. This repository is designed to be a valuable resource for fellow students at Atmiya University pursuing ASP.NET, offering insights, inspiration, and practical examples. Through shared knowledge and collaborative learning, I aspire to foster a supportive community within the realm of ASP.NET development at our university
 
-## :page_facing_up: Resume
-
-Here is my latest resume: **[Click Here](https://drive.google.com/file/d/1HO9p2HsdqrXpN-08T3BGXHhwezY6YALH/view)**
-
-## :man_technologist: About Me
-
-Hello, my name is Miraj Sankdecha and I am a dedicated MERN stack developer and freelancer. Currently, I am in my 6th semester pursuing a BCA degree at Atmiya University.
-
-During my academic journey, I have successfully completed several projects utilizing the MERN stack and React.js. Furthermore, I gained invaluable practical experience through a rigorous 6-month internship at Imbuesoft LLP, where I immersed myself in various facets of the MERN stack, including proficiency in tools such as Postman, Git, and GitHub. My experience extends to working with three prominent CSS frameworks, namely Ant Design, Bootstrap, and Tailwind CSS.
-
-I take pride in my ability to craft and design intricate components, alongside my proficiency in developing APIs. As a result of my experiences and learning, I am now fully prepared and eager to contribute my skills and knowledge to a full-time position.
-
 ### :computer: Development Environment
 
 - **Front-End Tools:** Visual Studio 2022
@@ -85,6 +73,18 @@ I take pride in my ability to craft and design intricate components, alongside m
 ## :envelope: Contact Me
 
 Feel free to reach out to me via email or phone for any inquiries or collaborations.
+
+## :man_technologist: About Me
+
+Hello, my name is Miraj Sankdecha and I am a dedicated MERN stack developer and freelancer. Currently, I am in my 6th semester pursuing a BCA degree at Atmiya University.
+
+During my academic journey, I have successfully completed several projects utilizing the MERN stack and React.js. Furthermore, I gained invaluable practical experience through a rigorous 6-month internship at Imbuesoft LLP, where I immersed myself in various facets of the MERN stack, including proficiency in tools such as Postman, Git, and GitHub. My experience extends to working with three prominent CSS frameworks, namely Ant Design, Bootstrap, and Tailwind CSS.
+
+I take pride in my ability to craft and design intricate components, alongside my proficiency in developing APIs. As a result of my experiences and learning, I am now fully prepared and eager to contribute my skills and knowledge to a full-time position.
+
+## :page_facing_up: Resume
+
+Here is my latest resume: **[Click Here](https://drive.google.com/file/d/1HO9p2HsdqrXpN-08T3BGXHhwezY6YALH/view)**
 
 ## :wrench: Installation Guide
 
