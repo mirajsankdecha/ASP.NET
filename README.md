@@ -1,6 +1,6 @@
 <h1 align="center">
 <a href="https://portfolio-master-sable-seven.vercel.app/" target="_blank">
-<img src="https://github.com/mirajsankdecha/Portfolio-master/blob/main/src/Assets/about.png" alt="Miraj Sankdecha Portfolio" width="300">
+<img src="https://www.mindrops.com/images/asp.net-logo.jpg" alt="Miraj Sankdecha Portfolio" width="300">
 </a>
 <br>
 Miraj Sankdecha
