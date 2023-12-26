@@ -22,7 +22,10 @@
             </div>
         <asp:Menu ID="Menu1" runat="server" Font-Size="20pt" Orientation="Horizontal">
             <Items>
-                <asp:MenuItem Text="Unit 1" Value="Unit 1"></asp:MenuItem>
+                <asp:MenuItem Text="Unit 1" Value="Unit 1">
+                    <asp:MenuItem NavigateUrl="~/Student Card.aspx" Text="Student Card" 
+                        Value="Student Card"></asp:MenuItem>
+                </asp:MenuItem>
                 <asp:MenuItem Text="Unit 2" Value="Unit 2"></asp:MenuItem>
                 <asp:MenuItem Text="Unit 3" Value="Unit 3"></asp:MenuItem>
                 <asp:MenuItem Text="Unit 4" Value="New Item"></asp:MenuItem>
