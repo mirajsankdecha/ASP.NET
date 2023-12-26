@@ -1,51 +1,48 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="SiteMaster" %>
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
-    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    <asp:ContentPlaceHolder id="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <form runat="server">
-    <div class="page">
-        <div class="header">
-            <div class="title">
-                <h1>
-                    My ASP.NET Application
-                </h1>
+    <form id="form1" runat="server">
+    <div>
+    <div>
+     <asp:Image ID="Image1" runat="server" Height="104px" 
+                ImageUrl="~/img/Atmiya-Logo.png" Width="113px" />
+                
+        <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <asp:Label ID="Atmiyaname" runat="server" Font-Size="40pt" 
+            Text="Atmiya University"></asp:Label> </div>
+            <div>
+
             </div>
-            <div class="loginDisplay">
-                <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
-                    <AnonymousTemplate>
-                        [ <a href="~/Account/Login.aspx" ID="HeadLoginStatus" runat="server">Log In</a> ]
-                    </AnonymousTemplate>
-                    <LoggedInTemplate>
-                        Welcome <span class="bold"><asp:LoginName ID="HeadLoginName" runat="server" /></span>!
-                        [ <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Log Out" LogoutPageUrl="~/"/> ]
-                    </LoggedInTemplate>
-                </asp:LoginView>
-            </div>
-            <div class="clear hideSkiplink">
-                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
-                    <Items>
-                        <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Home"/>
-                        <asp:MenuItem NavigateUrl="~/About.aspx" Text="About"/>
-                    </Items>
-                </asp:Menu>
-            </div>
-        </div>
-        <div class="main">
-            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
-        </div>
-        <div class="clear">
-        </div>
+        <asp:Menu ID="Menu1" runat="server" Font-Size="20pt" Orientation="Horizontal">
+            <Items>
+                <asp:MenuItem Text="Unit 1" Value="Unit 1"></asp:MenuItem>
+                <asp:MenuItem Text="Unit 2" Value="Unit 2"></asp:MenuItem>
+                <asp:MenuItem Text="Unit 3" Value="Unit 3"></asp:MenuItem>
+                <asp:MenuItem Text="Unit 4" Value="New Item"></asp:MenuItem>
+                <asp:MenuItem Text="Unit 5" Value="New Item"></asp:MenuItem>
+            </Items>
+        </asp:Menu>
+        <br />
+
+        <br />
     </div>
-    <div class="footer">
-        
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+  
+        </asp:ContentPlaceHolder>
+
     </div>
+    <asp:Label ID="Label1" runat="server" Font-Size="38pt" 
+        Text="Developed by Miraj Sankdecha | Class : BCA(C4) | Roll No : 40"></asp:Label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <asp:Image ID="Image2" runat="server" Height="161px" 
+        ImageUrl="~/img/myimage.png" Width="165px" />
     </form>
 </body>
 </html>
