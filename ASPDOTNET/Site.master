@@ -127,8 +127,10 @@
                     <asp:Menu ID="Menu1" runat="server" Font-Size="20pt" Orientation="Horizontal" CssClass="navbar-nav mx-auto">
                         <Items>
                             <asp:MenuItem Text="Unit 1" Value="Unit 1">
-                                <asp:MenuItem NavigateUrl="~/StudentCard.aspx" Text="Student Card" 
+                                <asp:MenuItem NavigateUrl="~/Student Card.aspx" Text="Student Card" 
                                     Value="Student Card"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/Registration Form.aspx" Text="Registration From" 
+                                    Value="Registration From"></asp:MenuItem>
                             </asp:MenuItem>
                             <asp:MenuItem Text="Unit 2" Value="Unit 2"></asp:MenuItem>
                             <asp:MenuItem Text="Unit 3" Value="Unit 3"></asp:MenuItem>
