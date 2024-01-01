@@ -78,6 +78,7 @@
 
         #social-links a:hover {
             color: #ffc107;
+            background-color:Black;
         }
 
         #footer-content {
@@ -131,6 +132,10 @@
                                     Value="Student Card"></asp:MenuItem>
                                 <asp:MenuItem NavigateUrl="~/Registration Form.aspx" Text="Registration From" 
                                     Value="Registration From"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/Image Button.aspx" Text="Image Button" 
+                                    Value="Image Button"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/IncDec.aspx" Text="IncDec" Value="IncDec">
+                                </asp:MenuItem>
                             </asp:MenuItem>
                             <asp:MenuItem Text="Unit 2" Value="Unit 2"></asp:MenuItem>
                             <asp:MenuItem Text="Unit 3" Value="Unit 3"></asp:MenuItem>
