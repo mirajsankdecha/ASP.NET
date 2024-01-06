@@ -138,6 +138,16 @@
                                     Value="Image Button"></asp:MenuItem>
                                 <asp:MenuItem NavigateUrl="~/IncDec.aspx" Text="IncDec" Value="IncDec">
                                 </asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/Radio Button.aspx" Text="Radio Button" 
+                                    Value="Radio Button"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/Radio Button List.aspx" Text="Radio Button List" 
+                                    Value="Radio Button List"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/Checkbox.aspx" Text="Checkbox" Value="New Item">
+                                </asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/CheckBox List.aspx" Text="Checkbox List" 
+                                    Value="Checkbox List"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/Dropdow  List.aspx" Text="Dropdown List" 
+                                    Value="Dropdown List"></asp:MenuItem>
                             </asp:MenuItem>
                             <asp:MenuItem Text="Unit 2" Value="Unit 2"></asp:MenuItem>
                             <asp:MenuItem Text="Unit 3" Value="Unit 3"></asp:MenuItem>
