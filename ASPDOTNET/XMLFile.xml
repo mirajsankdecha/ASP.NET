@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>
+      Elon.png
+    </ImageUrl>
+    <NavigateUrl>
+      https://www.forbes.com/profile/elon-musk/
+    </NavigateUrl>
+    <AlternateText>
+      TMKOC
+    </AlternateText>
+    <Impressions>
+      5
+    </Impressions>
+    <keyword>
+      Elon
+    </keyword>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>
+      Mira.jpg
+    </ImageUrl>
+    <NavigateUrl>
+      https://euronews.al/en/albanian-elected-chatgpts-head-used-to-work-for-elon-musk/
+    </NavigateUrl>
+    <AlternateText>
+      Mira Murati
+    </AlternateText>
+    <Impressions>
+      10
+    </Impressions>
+    <keyword>
+      Mira
+    </keyword>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>
+      myimage.jpg
+    </ImageUrl>
+    <NavigateUrl>
+      https://bit.ly/mirajsankdecha
+    </NavigateUrl>
+    <AlternateText>
+      Miraj Sankdecha
+    </AlternateText>
+    <Impressions>
+      20
+    </Impressions>
+    <keyword>
+      Me
+    </keyword>
+  </Ad>
+
+</Advertisements>
