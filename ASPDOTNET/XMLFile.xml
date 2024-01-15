@@ -21,12 +21,12 @@
     <Keyword>Me</Keyword>
   </Ad>
   <Ad>
-    <ImageUrl>~/img/Mira.png</ImageUrl>
-    <NavigateUrl>http://www.1800flowers.com</NavigateUrl>
+    <ImageUrl>~/img/Elon.png</ImageUrl>
+    <NavigateUrl>https://www.forbes.com/profile/elon-musk/</NavigateUrl>
     <AlternateText>
-      Mira Murati
+      Elon Musk
     </AlternateText>
-    <Impressions>20</Impressions>
-    <Keyword>flowers</Keyword>
+    <Impressions>5</Impressions>
+    <Keyword>Elon Musk</Keyword>
   </Ad>
 </Advertisements>
