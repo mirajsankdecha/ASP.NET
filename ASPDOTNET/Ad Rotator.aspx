@@ -6,7 +6,11 @@
     <div align="center">
         <div>
             <asp:AdRotator ID="AdRotator1" runat="server" AdvertisementFile="~/XMLFile.xml" 
-                DataSourceID="XmlDataSource1" Height="90px" Width="100%" /> 
+                Height="500px" onadcreated="AdRotator1_AdCreated" /> 
+            <br />
+            <br />
+            <br />
+            <br />
         </div>
     </div>
 </asp:Content>

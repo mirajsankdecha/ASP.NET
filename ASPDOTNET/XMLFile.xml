@@ -1,57 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Advertisements>
   <Ad>
-    <ImageUrl>
-      Elon.png
-    </ImageUrl>
+    <ImageUrl>~/img/Mira.png</ImageUrl>
     <NavigateUrl>
-      https://www.forbes.com/profile/elon-musk/
-    </NavigateUrl>
-    <AlternateText>
-      TMKOC
-    </AlternateText>
-    <Impressions>
-      5
-    </Impressions>
-    <keyword>
-      Elon
-    </keyword>
-  </Ad>
-
-  <Ad>
-    <ImageUrl>
-      Mira.jpg
-    </ImageUrl>
-    <NavigateUrl>
-      https://euronews.al/en/albanian-elected-chatgpts-head-used-to-work-for-elon-musk/
-    </NavigateUrl>
-    <AlternateText>
+      https://euronews.al/en/albanian-elected-chatgpts-head-used-to-work-for-elon-musk/NavigateUrl>
+    </NavigateUrl>  
+      <AlternateText>
       Mira Murati
     </AlternateText>
-    <Impressions>
-      10
-    </Impressions>
-    <keyword>
-      Mira
-    </keyword>
+    <Impressions>10</Impressions>
+    <Keyword>Mira</Keyword>
   </Ad>
-
   <Ad>
-    <ImageUrl>
-      myimage.jpg
-    </ImageUrl>
-    <NavigateUrl>
-      https://bit.ly/mirajsankdecha
-    </NavigateUrl>
+    <ImageUrl>~/img/myimage.png</ImageUrl>
+    <NavigateUrl>https://bit.ly/mirajsankdecha</NavigateUrl>
     <AlternateText>
       Miraj Sankdecha
     </AlternateText>
-    <Impressions>
-      20
-    </Impressions>
-    <keyword>
-      Me
-    </keyword>
+    <Impressions>20</Impressions>
+    <Keyword>Me</Keyword>
   </Ad>
-
+  <Ad>
+    <ImageUrl>~/img/Mira.png</ImageUrl>
+    <NavigateUrl>http://www.1800flowers.com</NavigateUrl>
+    <AlternateText>
+      Mira Murati
+    </AlternateText>
+    <Impressions>20</Impressions>
+    <Keyword>flowers</Keyword>
+  </Ad>
 </Advertisements>

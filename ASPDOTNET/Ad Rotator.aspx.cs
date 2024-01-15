@@ -11,4 +11,8 @@ public partial class Ad_Rotator : System.Web.UI.Page
     {
 
     }
+    protected void AdRotator1_AdCreated(object sender, AdCreatedEventArgs e)
+    {
+
+    }
 }
