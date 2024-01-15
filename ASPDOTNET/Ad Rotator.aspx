@@ -7,10 +7,6 @@
         <div>
             <asp:AdRotator ID="AdRotator1" runat="server" AdvertisementFile="~/XMLFile.xml" 
                 Height="500px" onadcreated="AdRotator1_AdCreated" /> 
-            <br />
-            <br />
-            <br />
-            <br />
         </div>
     </div>
 </asp:Content>
