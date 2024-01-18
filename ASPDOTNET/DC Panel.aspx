@@ -7,7 +7,7 @@
         <div>
             <asp:Panel ID="Panel1" runat="server" BorderStyle="Solid" 
                 GroupingText="Dynamic Control Generator" Height="150px" 
-                HorizontalAlign="Center" ScrollBars="Auto" Width="60%"></asp:Panel>
+                HorizontalAlign="Center" ScrollBars="Auto" Visible="False" Width="60%"></asp:Panel>
         </div>
         <div>
             <asp:Label ID="Label1" runat="server" Text="No of Labels : "></asp:Label>
