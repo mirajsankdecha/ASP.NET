@@ -12,9 +12,9 @@ public partial class Listbox_Main : System.Web.UI.Page
         if (!IsPostBack)
         {
             // Add some initial items to the source ListBox
-            listbox1.Items.Add("Item 1");
-            listbox1.Items.Add("Item 2");
-            listbox1.Items.Add("Item 3");
+            listbox1.Items.Add("Miraj");
+            listbox1.Items.Add("Nishit");
+            listbox1.Items.Add("Aryan");
             // You can customize the initial items as per your requirements
         }
     }
