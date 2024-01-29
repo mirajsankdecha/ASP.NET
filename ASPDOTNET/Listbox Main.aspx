@@ -51,9 +51,10 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <div class="container">
         <div class="listbox-wrapper">
-            <asp:ListBox ID="lstBoxSource" runat="server" CssClass="list-box" 
-                AutoPostBack="True" onselectedindexchanged="lstBoxSource_SelectedIndexChanged"></asp:ListBox>
-            <asp:ListBox ID="lstBoxDestination" runat="server" CssClass="list-box" 
+            <asp:ListBox ID="listbox1" runat="server" CssClass="list-box" 
+                AutoPostBack="True" 
+                onselectedindexchanged="lstBoxSource_SelectedIndexChanged"></asp:ListBox>
+            <asp:ListBox ID="listbox2" runat="server" CssClass="list-box" 
                 AutoPostBack="True" 
                 onselectedindexchanged="lstBoxDestination_SelectedIndexChanged"></asp:ListBox>
         </div>
