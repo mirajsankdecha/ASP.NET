@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>img\RedLight.png</ImageUrl>
+    <NavigateUrl></NavigateUrl>
+    <AlternateText>STOP</AlternateText>
+    <Impressions>5</Impressions>
+    <Keyword>RedLight</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>img\YellowLight.png</ImageUrl>
+    <NavigateUrl></NavigateUrl>
+    <AlternateText>READY</AlternateText>
+    <Impressions>1</Impressions>
+    <Keyword>YellowLight</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>img\GreenLight.png</ImageUrl>
+    <NavigateUrl></NavigateUrl>
+    <Impressions>3</Impressions>
+    <AlternateText>GO</AlternateText>
+    <Keyword>GreenLight</Keyword>
+  </Ad>
+</Advertisements>
