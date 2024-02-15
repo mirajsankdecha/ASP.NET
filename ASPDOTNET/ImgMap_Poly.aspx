@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/ASPDOTNET/Site.master" AutoEventWireup="true" CodeFile="ImgMap_Poly.aspx.cs" Inherits="ImgMap_Poly" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="ImgMap_Poly.aspx.cs" Inherits="ImgMap_Poly" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
