@@ -160,6 +160,8 @@
                                 </asp:MenuItem>
                                 <asp:MenuItem NavigateUrl="~/Calendar.aspx" Text="Calendar" Value="Calendar">
                                 </asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/ImageMap.aspx" Text="Image Map" Value="Image Map">
+                                </asp:MenuItem>
                             </asp:MenuItem>
                             <asp:MenuItem Text="Unit 3" Value="Unit 3"></asp:MenuItem>
                             <asp:MenuItem Text="Unit 4" Value="Unit 4"></asp:MenuItem>
