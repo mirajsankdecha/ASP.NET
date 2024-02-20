@@ -169,6 +169,8 @@
                                 </asp:MenuItem>
                                 <asp:MenuItem NavigateUrl="~/Timer.aspx" Text="Timer" Value="Timer">
                                 </asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/Traffic-Lights.aspx" Text="Traffic Light" 
+                                    Value="Traffic Light"></asp:MenuItem>
                             </asp:MenuItem>
                             <asp:MenuItem Text="Unit 3" Value="Unit 3"></asp:MenuItem>
                             <asp:MenuItem Text="Unit 4" Value="Unit 4"></asp:MenuItem>
