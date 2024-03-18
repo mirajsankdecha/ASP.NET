@@ -29,8 +29,8 @@
             <asp:TextBox ID="tbname" runat="server" CssClass="input"></asp:TextBox>
         </div>
         <div class="form-group">
-            <span class="label">Password :</span>
-            <input id="tbpass" type="password" class="input" />
+            <span class="label">Password :</span>&nbsp;
+            <asp:TextBox ID="tbpass" type="password" class="input" runat="server"></asp:TextBox>
         </div>
         <div class="form-group">
             <span class="label">Confirm Password :</span>
@@ -55,7 +55,8 @@
             <asp:RadioButton ID="RadioButton2" runat="server" GroupName="gender" Text="Female" />
         </div>
         <div class="form-group">
-            <asp:Button ID="btnsubmit" runat="server" Text="Submit" />
+            <asp:Button ID="btnsubmit" runat="server" Text="Submit" 
+                onclick="btnsubmit_Click" />
         </div>
     </div>
 </asp:Content>
