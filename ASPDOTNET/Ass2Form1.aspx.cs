@@ -19,7 +19,7 @@ public partial class Ass2Form1 : System.Web.UI.Page
         try
         {
             con.Open();
-            SqlCommand cmd = new SqlCommand("INSERT INTO A1P1 (Name, Password, Gmail, City, Gender) VALUES (@Name, @Password, @Gmail, @City, @Gender)", con);
+            SqlCommand cmd = new SqlCommand("INSERT INTO A1P1 (Name, Password, Gmail, City, Gender, id, cassword) VALUES (@Name, @Password, @Gmail, @City, @Gender, @Id, @Cassword)", con);
             cmd.Parameters.AddWithValue("@Name", tbname.Text);
             cmd.Parameters.AddWithValue("@Password", tbpass.Text);
             cmd.Parameters.AddWithValue("@Gmail", tbmail.Text);
@@ -31,6 +31,12 @@ public partial class Ass2Form1 : System.Web.UI.Page
             else if (RadioButton2.Checked)
                 gender = RadioButton2.Text;
             cmd.Parameters.AddWithValue("@Gender", gender);
+
+            // Assuming "id" is auto-incremented, you may not need to provide its value here
+            cmd.Parameters.AddWithValue("@Id", DBNull.Value); // Or provide the appropriate value if not auto-incremented
+
+            // Assuming "cassword" has a default value or it's optional
+            cmd.Parameters.AddWithValue("@Cassword", DBNull.Value); // Or provide the appropriate value if it's not optional
 
             cmd.ExecuteNonQuery();
             con.Close();
